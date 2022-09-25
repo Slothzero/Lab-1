@@ -1,3 +1,4 @@
+# Первое задание: Подсчитать количество записей в файле
 import csv
 with open("books.csv") as f:
     f_reader = csv.DictReader(f, delimiter = ';')

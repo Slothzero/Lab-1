@@ -1,3 +1,4 @@
+#Второе задание: Выдать количество записей, у которых в поле Название строка длиннее 30 символов.
 import csv
 with open("books.csv") as f:
     f_reader = csv.DictReader(f, delimiter = ';')
